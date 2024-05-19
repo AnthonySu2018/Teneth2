@@ -60,6 +60,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.media3.common)
+    implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,4 +73,10 @@ dependencies {
 
 
     implementation("androidx.compose.material:material:1.0.5")
+
+    implementation("androidx.media2:media2-widget:1.1.3")
+
+    implementation("androidx.media2:media2-player:1.1.3")
+
+
 }
